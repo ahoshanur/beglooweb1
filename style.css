@@ -1,0 +1,118 @@
+/* Default CSS */
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* Header CSS */
+.header {
+    background: #34495e;
+}
+.header img {
+    width: 200px;
+}
+.header-menu {
+    background: #34495e;
+}
+.header-menu ul {
+    text-align: right;
+    margin-bottom: 0;
+}
+.header-menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-menu ul li a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: white;
+    font-size: 18px;
+    line-height: 52px;
+    display: block;
+    transition: .5s;
+}
+.header-menu ul li a:hover {
+    background: #ecf0f1;
+    color: black;
+}
+
+/* Banner CSS */
+.banner {
+    background: url(https://i.ibb.co/WFRTCHh/pexels-thiago-matos-2008426.jpg) center;
+    background-size: cover;
+    padding: 220px 0;
+}
+
+/* About CSS */
+.about {
+    background: #ecf0f1;
+}
+.about h2 {
+    border-left: 2px black solid;
+    padding-left: 12px;
+    display: inline-block;
+}
+
+/* Service CSS */
+.service i {
+    font-size: 40px;
+    padding: 8px;
+}
+.service h2 {
+    background: #34495e;
+    color: white;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-left: -2px;
+}
+.card {
+    border: none;
+}
+
+/* Product CSS */
+.product {
+    background: #34495e;
+}
+.product img {
+    width: 100%;
+    display: block;
+    line-height: 100px;
+}
+.product h2 {
+    border-left: 2px white solid;
+    padding-left: 12px;
+}
+
+/* Footer CSS */
+.footer {
+    background: #34495e;
+}
+.footer a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+}
+.footer a:hover {
+    color: black;
+}
+.footer p {
+    margin-bottom: 0;
+}
+
+/* Contact CSS */
+.contact {
+    background: #ecf0f1;
+}
+.contact iframe {
+    border-radius: 20px;
+}
+.contact h2 {
+    border-left: black 2px solid;
+    padding-left: 12px;
+    margin-bottom: 10px;
+}
+/* Code by Ahoshanur Rahman Akash */
